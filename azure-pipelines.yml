@@ -1,11 +1,5 @@
 strategy:
   matrix:
-    go112_linux:
-      imageName: 'ubuntu-16.04'
-      goVerson: '1.12'
-    go112_mac:
-      imageName: 'macos-10.13'
-      goVerson: '1.12'
     go113_linux:
       imageName: 'ubuntu-16.04'
       goVerson: '1.13'
@@ -34,3 +28,9 @@ steps:
   - script: |
       make test-coverage
     displayName: 'Run tests'
+
+  - task: CacheBeta@0
+    inputs:
+      key: maven | $(Agent.OS) | go.sum
+      path: $(GOPATH)/pkg/mod
+    displayName: Cache go modules
