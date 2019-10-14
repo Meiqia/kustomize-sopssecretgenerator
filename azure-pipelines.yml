@@ -28,9 +28,3 @@ steps:
   - script: |
       make test-coverage
     displayName: 'Run tests'
-
-  - task: CacheBeta@0
-    inputs:
-      key: maven | $(Agent.OS) | go.sum
-      path: $(GOPATH)/pkg/mod
-    displayName: Cache go modules
