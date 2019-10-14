@@ -1,6 +1,6 @@
 # kustomize-sopssecretgenerator
 
-[![Build Status](https://travis-ci.org/Meiqia/kustomize-sopssecretgenerator.svg?branch=master)](https://travis-ci.org/Meiqia/kustomize-sopssecretgenerator)
+[![Build Status](https://travis-ci.com/Meiqia/kustomize-sopssecretgenerator.svg?branch=master)](https://travis-ci.org/Meiqia/kustomize-sopssecretgenerator)
 [![Go Report Card](https://goreportcard.com/badge/github.com/Meiqia/kustomize-sopssecretgenerator)](https://goreportcard.com/report/github.com/Meiqia/kustomize-sopssecretgenerator)
 [![Codecov](https://img.shields.io/codecov/c/github/Meiqia/kustomize-sopssecretgenerator)](https://codecov.io/gh/Meiqia/kustomize-sopssecretgenerator)
 [![Latest Release](https://img.shields.io/github/v/release/Meiqia/kustomize-sopssecretgenerator?sort=semver)](https://github.com/Meiqia/kustomize-sopssecretgenerator/releases/latest)
