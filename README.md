@@ -125,16 +125,3 @@ Create a binary for your system:
     make
     
 The resulting executable will be named `SopsSecretGenerator`.
-
-
-### Release
-
-First create a Git tag for the release:
-
-    git tag -a v$VERSION
-
-Then make releases for all supported platforms:
-
-    make release
-    
-Binaries can be found in `releases`.
